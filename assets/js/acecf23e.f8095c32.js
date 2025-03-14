@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreed_docs=self.webpackChunkreed_docs||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/reedDocs/blog","blogTitle":"Blog","authorsListPath":"/reedDocs/blog/authors"}')}}]);
