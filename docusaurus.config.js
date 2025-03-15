@@ -46,8 +46,8 @@ const config = {
 					sidebarPath: './sidebars.js',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl:
-						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
+					routeBasePath: '/',
+					editUrl: 'https://github.com/ReedorReed'
 				},
 				blog: {
 					showReadingTime: true,
@@ -83,12 +83,12 @@ const config = {
 					src: 'img/logo.svg'
 				},
 				items: [
-					{
-						type: 'docSidebar',
-						sidebarId: 'tutorialSidebar',
-						position: 'left',
-						label: 'Docs'
-					},
+					// {
+					// 	type: 'docSidebar',
+					// 	sidebarId: 'tutorialSidebar',
+					// 	position: 'left',
+					// 	label: 'Docs'
+					// },
 					{ to: '/blog', label: 'Blog', position: 'left' },
 					{
 						href: 'https://github.com/ReedorReed/reedDocs',
