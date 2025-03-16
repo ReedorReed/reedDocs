@@ -10,8 +10,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Reeds Site',
-	tagline: 'My Toolbox',
+	title: "Reed's Dev Notes",
+	tagline: 'My Journey Through Web Development',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -46,8 +46,8 @@ const config = {
 					sidebarPath: './sidebars.js',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					routeBasePath: '/',
-					editUrl: 'https://github.com/ReedorReed'
+					routeBasePath: '/'
+					//editUrl: 'https://github.com/ReedorReed'
 				},
 				blog: {
 					showReadingTime: true,
@@ -57,7 +57,7 @@ const config = {
 					},
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: 'https://github.com/ReedorReed',
+					//editUrl: 'https://github.com/ReedorReed',
 					// Useful options to enforce blogging best practices
 					onInlineTags: 'warn',
 					onInlineAuthors: 'warn',
@@ -103,8 +103,8 @@ const config = {
 						title: 'Docs',
 						items: [
 							{
-								label: 'Tutorial',
-								to: '/reedDocs/'
+								label: 'Documentation',
+								to: '/'
 							}
 						]
 					},
@@ -114,6 +114,10 @@ const config = {
 							{
 								label: 'LinkedIn',
 								href: 'https://www.linkedin.com/in/christiansreed/'
+							},
+							{
+								label: 'Instagram',
+								href: 'https://www.instagram.com/reedorreed/'
 							},
 							{
 								label: 'BlueSky',
@@ -135,7 +139,7 @@ const config = {
 						]
 					}
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} reedsDocs, Christian Reed.`
+				copyright: `Copyright © ${new Date().getFullYear()} Christian Reed.`
 			},
 			prism: {
 				theme: prismThemes.github,

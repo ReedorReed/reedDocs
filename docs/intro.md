@@ -1,48 +1,44 @@
 ---
+title: Welcome to My Learning Notes
 sidebar_position: 1
-slug: '/'
+slug: /
 ---
 
-# Tutorial Intro
+# 🗺️ Welcome to my notes on my journey learning Web Development!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Hello and welcome! This is my personal documentation where I take structured notes as I learn web development. My goal is to create a **clear, well-organized reference** for myself and others who might be on the same journey.  
 
-## Getting Started
+---
 
-Get started by **creating a new site**.
+## 📌 What You'll Find Here  
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This documentation is divided into different sections, covering:  
 
-### What you'll need
+- **HTML & CSS** – The foundations of web structure and styling  
+- **JavaScript** – Core programming concepts  
+- **Frontend Frameworks** – React and other UI frameworks I learn on my journey 
+- **Backend Development** – Node.js and databases  
+- **Dev Tools & Best Practices** – Git, VS Code, debugging, and performance optimization  
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+---
 
-## Generate a new site
+## 🎯 Who Is This For?  
 
-Generate a new Docusaurus site using the **classic template**.
+This is primarily **for me, myself and I**, to help reinforce what I learn. But if you're also learning web development, you might find useful explanations, references, and code snippets here!  
 
-The classic template will automatically be added to your project after you run the command:
+---
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## ℹ️ How to Use This Documentation  
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- Browse different **topics** from the sidebar 📂  
+- Use **code snippets** and examples to reinforce learning 💡  
+- Check out the **blog section** for my learning experiences 📝  
+- Feel free to contribute (if this is hosted on GitHub) 🤝  
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+---
 
-## Start your site
+## 🔥 What’s Next?  
 
-Run the development server:
+I'm currently focusing on **JavaScript fundamentals**. My next goal is to build small projects to solidify my understanding.  
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Happy coding! 🚀✨💻  
