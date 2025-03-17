@@ -12,6 +12,8 @@ sidebar_label: 'HTML - Basics'
 
 An example could be: `<h1>Hello World</h1>`, here we have created a headline that says _**Hello World**_. It is best practice to write all tags in lower-case.
 
+Further more we can use elements in different ways. One way is as `blok` elements, which means the elements at stacked on top of each other. The other way is `inline` elements, which as its name suggests is inline i.e. directly in the tag.
+
 ## Basic HTML Structure
 
 All web pages share the same basic HTML structure
@@ -31,6 +33,8 @@ All web pages share the same basic HTML structure
 </html>
 
 ```
+
+As we can see in the above example of `HTML` the code is nested like so many other programming languages.
 
 ### _Key points_
 
@@ -65,6 +69,8 @@ Used for navigation
 ```html
 <a href="https://christianreed.dk" target="_blank">Visit my site</a>
 ```
+
+We use _attributes_ in the `<a>`tag. Attributes usually come in name/value pairs like: _name="value"_ and the value is always inside qutation marks " ".
 
 - `href`: Specifies the url.
 - `target="_blank"`: Opens the url in a new tab.
