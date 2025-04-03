@@ -72,7 +72,7 @@ Then I made an `if` statement in which I assigned the nine different answers my 
 Lastly I `console.log();` two text strings each + the `question` and `answer` variable. To show the results in the console.
 
 
-## Rock, Paper, Scissor app
+## Rock, Paper, Scissor app with Math.random()
 
 In this game I have used an `if` statement and an `array` to make the game. The computer variable uses `Math.floor(Math.random())` to generate a whole random number also know as a random `integer`, which is compared to what number the player has entered between 0 & 2. Because 0 - 2 represents either Rock, Paper or Scissors in the array `rps`.
 
