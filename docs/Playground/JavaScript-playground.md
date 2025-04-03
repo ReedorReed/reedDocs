@@ -123,3 +123,37 @@ if (player === 0 && computer === 1) {
 } else ("An error occurred")
 
 ```
+
+## Let's try and take a look at Loops
+
+### I will build a guess my lucky number game with a `while` loop.
+
+A `while` loop uses a condition that is either `true` or `false` just like a `if` statement. However in a `while` loop the loop will keep running as long as the condition is `true` and ends once the condition is `false`. So remember to put a break in the loop or it will keep going infinite.
+
+**`while` loop syntax:**
+
+```javascript
+
+while (condition) {
+  // Code here
+}
+
+```
+
+In the game here I make a variable with my lucky number. Then I make a variable that generates a random number to guess my lucky number.
+
+The `while` loop then iterates through numbers between 0 & 10 and as longs as it is not my lucky number it will print "Nope, it isn't x" it will keep iterating through numbers until it reaches 8 which I have set as my lucky number.
+
+```javascript
+
+const luckyNumber = 8;
+
+let guess = Math.floor(Math.random() *10) + 1;
+
+while (luckyNumber !== guess) {
+  console.log(`Nope, it isn't ${guess}`)
+  guess = Math.floor(Math.random() *10) + 1;
+}
+console.log(`My lucky number is ${luckyNumber}`)
+
+```
