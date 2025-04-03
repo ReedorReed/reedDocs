@@ -133,11 +133,9 @@ A `while` loop uses a condition that is either `true` or `false` just like a `if
 **`while` loop syntax:**
 
 ```javascript
-
 while (condition) {
   // Code here
 }
-
 ```
 
 In the game here I make a variable with my lucky number. Then I make a variable that generates a random number to guess my lucky number.
