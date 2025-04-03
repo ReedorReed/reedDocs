@@ -144,6 +144,8 @@ In the game here I make a variable with my lucky number. Then I make a variable 
 
 The `while` loop then iterates through numbers between 0 & 10 and as longs as it is not my lucky number it will print "Nope, it isn't x" it will keep iterating through numbers until it reaches 8 which I have set as my lucky number.
 
+I hgave printet "My lucky number is x" outside the loop so when the loop reaches my number it stops and it will look like it reached the number and printet that.
+
 ```javascript
 
 const luckyNumber = 8;
