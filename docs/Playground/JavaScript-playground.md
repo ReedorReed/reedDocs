@@ -70,3 +70,56 @@ Lastly I made an variable set to an empty string, which will contain the result 
 Then I made an `if` statement in which I assigned the nine different answers my magic-8-ball app can use to the numbers 1-9 which the randomNumber variable will generate.
 
 Lastly I `console.log();` two text strings each + the `question` and `answer` variable. To show the results in the console.
+
+
+## Rock, Paper, Scissor app
+
+In this game I have used an `if` statement and an `array` to make the game. The computer variable uses `Math.floor(Math.random())` to generate a whole random number also know as a random `integer`, which is compared to what number the player has entered between 0 & 2. Because 0 - 2 represents either Rock, Paper or Scissors in the array `rps`.
+
+```javascript
+
+const rps = ["Rock", "Paper", "Scissors"];
+
+let player = 2;
+
+let computer = Math.floor(Math.random()*3);
+
+if (player === 0 && computer === 1) {
+  console.log("Player picked:     " + rps[player])
+  console.log("Computer picked:   " + rps[computer])
+
+  console.log("Computer wins!")
+
+
+} else if (player === 0 && computer === 2) {
+  console.log("Player picked:     " + rps[player])
+  console.log("Computer picked:   " + rps[computer])
+  
+  console.log("Player wins!")
+
+} else if (player === 1 && computer === 0) {
+  console.log("Player picked:     " + rps[player])
+  console.log("Computer picked:   " + rps[computer])
+  
+  console.log("Player wins!")
+
+} else if (player === 1 && computer === 2) {
+  console.log("Player picked:     " + rps[player])
+  console.log("Computer picked:   " + rps[computer])
+  
+  console.log("Computer wins!")
+
+} else if (player === 2 && computer === 1) {
+  console.log("Player picked:     " + rps[player])
+  console.log("Computer picked:   " + rps[computer])
+  
+  console.log("Player wins!")
+
+} else if (player === 2 && computer === 0) {
+  console.log("Player picked:     " + rps[player])
+  console.log("Computer picked:   " + rps[computer])
+  
+  console.log("Computer wins!")
+} else ("An error occurred")
+
+```
